@@ -20,6 +20,7 @@ public class Nomina {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         double salarioMes, horasExtras, horaNormal, valorHoraExtra, valorTotalHorasExtras, salarioFinal;
+	System.out.println("Este es el Taller de Nomina");
         System.out.print("Ingrese el valor del Salario mensual recibido: ");
         salarioMes = entrada.nextDouble();
         System.out.print("Ingrese el numero de horas extras laboradas durante el mes: ");
